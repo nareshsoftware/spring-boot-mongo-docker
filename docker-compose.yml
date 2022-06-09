@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   springboot:
-    image: naresh06092020/mongowebdocker:${buildnumber}
+    image: naresh06092020/mongowebdocker:1
     restart: always # This will be ignored if we deploy in docker swarm
     environment:
     - MONGO_DB_HOSTNAME=mongo
